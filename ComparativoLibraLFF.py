@@ -134,7 +134,7 @@ if button:
     #####################################################################################
     #####################################################################################
     # Gráfico 1: Comparação do Faturamento dos clubes nas 2 Propostas
-    plt.rcParams["figure.figsize"] = [4.50, 3.50]
+    plt.rcParams["figure.figsize"] = [4.50, 4.00]
     plt.rcParams["figure.autolayout"] = True
 
     faturamento_1 = (faturamento_libra_1, faturamento_lff_1)
@@ -147,7 +147,7 @@ if button:
     rects1 = ax.bar(ind - width/2, faturamento_1, width, label=f"{clube_1}, {colocação_1}", zorder=1, color='#B6282F', alpha=1)
     rects2 = ax.bar(ind + width/2, faturamento_2, width, label=f"{clube_2}, {colocação_2}", zorder=1, color='#344D94', alpha=1)
 
-    plt.ylim([0, 480])
+    plt.ylim([0, 500])
     plt.xlabel('Propostas')
     ax.set_ylabel('Faturamento (R$ milhões)')
     ax.set_title('Comparativo LIBRA x LFF')
