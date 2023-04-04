@@ -4,8 +4,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 from soccerplots.radar_chart import Radar
-from operator import itemgetter
-from prettytable import PrettyTable
 
 #CABEÇALHO DO FORM
 st.markdown("<h1 style='text-align: center;'>LIBRA ou LFF</h1>", unsafe_allow_html=True)
