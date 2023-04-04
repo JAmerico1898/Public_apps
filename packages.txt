@@ -2,4 +2,3 @@ pandas
 matplotlib.pyplot
 numpy
 soccerplots
-streamlit==1.1*
